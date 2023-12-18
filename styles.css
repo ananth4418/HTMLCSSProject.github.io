@@ -1,27 +1,27 @@
-/* Reset default margin and padding */
+
 body, h1, h2, h3, ul, li, p, form {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color */
+
 body {
-    background-color: #171a29; /* Dark background color similar to Zomato */
+    background-color: #171a29; 
     font-family: Arial, sans-serif;
-    color: #fff; /* White text on the dark background */
+    color: #fff; 
 }
 
-/* Style the header */
+
 h1 {
     text-align: center;
     padding: 20px 0;
-    color: #fff; /* White */
+    color: #fff; 
 }
 
-/* Style the navigation links */
+
 ul {
     list-style-type: none;
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    background-color: rgba(255, 255, 255, 0.1); 
     text-align: center;
     padding: 10px 0;
 }
@@ -33,26 +33,26 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff; /* White */
+    color: #fff; 
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-/* Style the sections */
+
 section {
     padding: 40px;
 }
 
-/* Style the featured foods section */
+
 .Food-Item {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 30px;
-    color: #333; /* Dark gray text on the white background */
+    color: #333; 
 }
 
 .Food-Item img {
@@ -62,15 +62,15 @@ section {
     margin-bottom: 15px;
 }
 
-/* Style the sign-in and sign-up forms */
+
 form {
     max-width: 400px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    color: #333; /* Dark gray text on the white background */
+    color: #333; 
 }
 
 input[type="text"],
@@ -91,10 +91,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #e74c3c; /* Darker red */
+    background-color: #e74c3c; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     section {
         padding: 20px;
